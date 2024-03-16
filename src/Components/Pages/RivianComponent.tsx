@@ -1,15 +1,15 @@
 import React from 'react'
 import { Tab, Tabs } from 'react-bootstrap'
+import './Component.css'
 
-const Rivian = () => {
+const RivianComponent = () => {
     return (
         <div>
             <header style={{ paddingLeft: 0 }}>
-                <div
-                    className='p-5 text-center bg-image'
+                <div className='p-5 text-center backgroundImage'
                     style={{ backgroundImage: `url(${require('../../Assets/Rivian3.webp')})`, height: 400 }}
                 >
-                    <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
+                    <div className='backgroundMask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
                         <div className='d-flex justify-content-center align-items-center h-100'>
                             <div className='text-white'>
                                 <h1 className='mb-3'>Rivian</h1>
@@ -18,8 +18,8 @@ const Rivian = () => {
                     </div>
                 </div>
             </header>
-
-            <div className="container pt-4">
+            
+            <div className="container pt-4 pb-5">
                 <h3 className='text-center py-4'>Senior Data Scientist & Front-End Developer</h3>
                 <div className="container border">
                     <Tabs
@@ -64,4 +64,4 @@ const Rivian = () => {
     )
 }
 
-export default Rivian
+export default RivianComponent

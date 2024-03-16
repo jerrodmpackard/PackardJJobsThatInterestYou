@@ -1,21 +1,20 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Apple from './Components/Pages/Apple';
-import Cisco from './Components/Pages/Cisco';
+import Apple from './Components/Pages/AppleComponent';
+import Cisco from './Components/Pages/CiscoComponent';
 import Rivian from './Components/Pages/RivianComponent';
-import Google from './Components/Pages/Google';
-import Netflix from './Components/Pages/Netflix';
-import NavbarComponent from './Components/NavBarComponent';
+import Google from './Components/Pages/GoogleComponent';
+import Netflix from './Components/Pages/NetflixComponent';
+import NavBarComponent from './Components/NavBarComponent';
 import HomePageComponent from './Components/Pages/HomePageComponent';
 
 function App() {
   return (
     <BrowserRouter>
 
-      <NavbarComponent />
+      <NavBarComponent />
 
       <Routes>
         <Route path='/' element={<HomePageComponent />} />

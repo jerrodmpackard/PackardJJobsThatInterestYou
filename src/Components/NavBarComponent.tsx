@@ -1,8 +1,6 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-// import Rivian1 from '../Assets/Rivian1.png'
 
 function NavbarComponent() {
     return (
