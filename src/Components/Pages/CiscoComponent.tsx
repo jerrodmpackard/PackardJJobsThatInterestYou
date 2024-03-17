@@ -58,8 +58,8 @@ const CiscoComponent = () => {
                         </Tab>
                         <Tab eventKey="links" title="Relevant links">
                             <ul>
-                                <li><a href="https://cisco.com/" target='_blank'>Cisco Website</a></li>
-                                <li><a href="https://jobs.cisco.com/jobs/ProjectDetail/Senior-Software-Engineer-AIOps/1419050" target='_blank'>Job Listing</a></li>
+                                <li><a href="https://cisco.com/" target='_blank' rel='noreferrer'>Cisco Website</a></li>
+                                <li><a href="https://jobs.cisco.com/jobs/ProjectDetail/Senior-Software-Engineer-AIOps/1419050" target='_blank' rel='noreferrer'>Job Listing</a></li>
                             </ul>
                         </Tab>
                     </Tabs>
