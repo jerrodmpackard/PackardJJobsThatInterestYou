@@ -52,8 +52,8 @@ const RivianComponent = () => {
                         </Tab>
                         <Tab eventKey="links" title="Relevant links">
                             <ul>
-                                <li><a href="https://rivian.com/" target='blank'>Rivian Website</a></li>
-                                <li><a href="https://careers.rivian.com/careers-home/jobs/16670?lang=en-us" target='blank'>Job Listing</a></li>
+                                <li><a href="https://rivian.com/" target='_blank'>Rivian Website</a></li>
+                                <li><a href="https://careers.rivian.com/careers-home/jobs/16670?lang=en-us" target='_blank'>Job Listing</a></li>
                             </ul>
                         </Tab>
                     </Tabs>

@@ -59,8 +59,8 @@ const Google = () => {
                         </Tab>
                         <Tab eventKey="links" title="Relevant links">
                             <ul>
-                                <li><a href="https://google.com/" target='blank'>Google Website</a></li>
-                                <li><a href="https://www.google.com/about/careers/applications/jobs/results/143132292458390214-software-engineer-iii-google-cloud-ai" target='blank'>Job Listing</a></li>
+                                <li><a href="https://google.com/" target='_blank'>Google Website</a></li>
+                                <li><a href="https://www.google.com/about/careers/applications/jobs/results/143132292458390214-software-engineer-iii-google-cloud-ai" target='_blank'>Job Listing</a></li>
                             </ul>
                         </Tab>
                     </Tabs>

@@ -58,8 +58,8 @@ const NetflixComponent = () => {
                         </Tab>
                         <Tab eventKey="links" title="Relevant links">
                             <ul>
-                                <li><a href="https://netflix.com/" target='blank'>Netflix Website</a></li>
-                                <li><a href="https://jobs.netflix.com/jobs/315247072" target='blank'>Job Listing</a></li>
+                                <li><a href="https://netflix.com/" target='_blank'>Netflix Website</a></li>
+                                <li><a href="https://jobs.netflix.com/jobs/315247072" target='_blank'>Job Listing</a></li>
                             </ul>
                         </Tab>
                     </Tabs>

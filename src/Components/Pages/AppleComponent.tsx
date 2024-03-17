@@ -63,8 +63,8 @@ const AppleComponent = () => {
                         </Tab>
                         <Tab eventKey="links" title="Relevant links">
                             <ul>
-                                <li><a href="https://apple.com/" target='blank'>Apple Website</a></li>
-                                <li><a href="https://jobs.apple.com/en-us/details/200530379/software-engineer-data-apps-frontend-enterprise-systems?team=SFTWR" target='blank'>Job Listing</a></li>
+                                <li><a href="https://apple.com/" target='_blank'>Apple Website</a></li>
+                                <li><a href="https://jobs.apple.com/en-us/details/200530379/software-engineer-data-apps-frontend-enterprise-systems?team=SFTWR" target='_blank'>Job Listing</a></li>
                             </ul>
                         </Tab>
                     </Tabs>
