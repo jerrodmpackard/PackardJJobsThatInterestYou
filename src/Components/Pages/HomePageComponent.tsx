@@ -30,70 +30,72 @@ const HomePageComponent = () => {
     }
 
     return (
-        <div className="container">
-            <h1 className='text-center py-5'>Jerrod's Dream Jobs</h1>
+        <div className='homeBackgroundColor'>
+            <div className="container">
+                <h1 className='text-center text-white py-5'>Jerrod's Dream Jobs</h1>
 
-            <Card>
-                <Card.Img variant="top" className='homePageImage img-fluid' src={Apple} style={{ width: "100%", height: "20rem" }} />
-                <Card.Body>
-                    <Card.Text className='text-center'>
-                        Apple
-                    </Card.Text>
-                    <div className='d-flex justify-content-center'>
-                        <Button onClick={handleApple} variant="primary">Learn More</Button>{' '}
-                    </div>
-                </Card.Body>
-            </Card>
-            <br />
-            <Card>
-                <Card.Img variant="top" className='homePageImage img-fluid' src={Cisco} style={{ width: "100%", height: "20rem" }} />
-                <Card.Body>
-                    <Card.Text className='text-center'>
-                        Cisco
-                    </Card.Text>
-                    <div className='d-flex justify-content-center'>
-                        <Button onClick={handleCisco} variant="primary">Learn More</Button>{' '}
-                    </div>
-                </Card.Body>
-            </Card>
-            <br />
-            <Card>
-                <Card.Img variant="top" className='homePageImage img-fluid' src={Rivian} style={{ width: "100%", height: "20rem" }} />
-                <Card.Body>
-                    <Card.Text className='text-center'>
-                        Rivian
-                    </Card.Text>
-                    <div className='d-flex justify-content-center'>
-                        <Button onClick={handleRivian} variant="primary">Learn More</Button>{' '}
-                    </div>
-                </Card.Body>
-            </Card>
-            <br />
-            <Card>
-                <Card.Img variant="top" className='homePageImage img-fluid' src={Google} style={{ width: "100%", height: "20rem" }} />
-                <Card.Body>
-                    <Card.Text className='text-center'>
-                        Google
-                    </Card.Text>
-                    <div className='d-flex justify-content-center'>
-                        <Button onClick={handleGoogle} variant="primary">Learn More</Button>{' '}
-                    </div>
-                </Card.Body>
-            </Card>
-            <br />
-            <Card>
-                <Card.Img variant="top" className='homePageImage img-fluid' src={Netflix} style={{ width: "100%", height: "20rem" }} />
-                <Card.Body>
-                    <Card.Text className='text-center'>
-                        Netflix
-                    </Card.Text>
-                    <div className='d-flex justify-content-center'>
-                        <Button onClick={handleNetflix} variant="primary">Learn More</Button>{' '}
-                    </div>
-                </Card.Body>
-            </Card>
-            <br />
+                <Card>
+                    <Card.Img variant="top" className='homePageImage img-fluid' src={Apple} style={{ width: "100%", height: "20rem" }} />
+                    <Card.Body>
+                        <Card.Text className='text-center'>
+                            Apple
+                        </Card.Text>
+                        <div className='d-flex justify-content-center'>
+                            <Button onClick={handleApple} variant="primary">Learn More</Button>{' '}
+                        </div>
+                    </Card.Body>
+                </Card>
+                <br />
+                <Card>
+                    <Card.Img variant="top" className='homePageImage img-fluid' src={Cisco} style={{ width: "100%", height: "20rem" }} />
+                    <Card.Body>
+                        <Card.Text className='text-center'>
+                            Cisco
+                        </Card.Text>
+                        <div className='d-flex justify-content-center'>
+                            <Button onClick={handleCisco} variant="primary">Learn More</Button>{' '}
+                        </div>
+                    </Card.Body>
+                </Card>
+                <br />
+                <Card>
+                    <Card.Img variant="top" className='homePageImage img-fluid' src={Rivian} style={{ width: "100%", height: "20rem" }} />
+                    <Card.Body>
+                        <Card.Text className='text-center'>
+                            Rivian
+                        </Card.Text>
+                        <div className='d-flex justify-content-center'>
+                            <Button onClick={handleRivian} variant="primary">Learn More</Button>{' '}
+                        </div>
+                    </Card.Body>
+                </Card>
+                <br />
+                <Card>
+                    <Card.Img variant="top" className='homePageImage img-fluid' src={Google} style={{ width: "100%", height: "20rem" }} />
+                    <Card.Body>
+                        <Card.Text className='text-center'>
+                            Google
+                        </Card.Text>
+                        <div className='d-flex justify-content-center'>
+                            <Button onClick={handleGoogle} variant="primary">Learn More</Button>{' '}
+                        </div>
+                    </Card.Body>
+                </Card>
+                <br />
+                <Card>
+                    <Card.Img variant="top" className='homePageImage img-fluid' src={Netflix} style={{ width: "100%", height: "20rem" }} />
+                    <Card.Body>
+                        <Card.Text className='text-center'>
+                            Netflix
+                        </Card.Text>
+                        <div className='d-flex justify-content-center'>
+                            <Button onClick={handleNetflix} variant="primary">Learn More</Button>{' '}
+                        </div>
+                    </Card.Body>
+                </Card>
+                <br />
 
+            </div>
         </div>
 
 

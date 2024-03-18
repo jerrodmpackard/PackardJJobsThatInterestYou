@@ -22,3 +22,34 @@
     object-fit: cover;
     overflow: hidden;
 }
+
+/* .backgroundColor {
+    background-color: lightslategray;
+    height: 100vh;
+}
+
+.homeBackgroundColor {
+    background-color: lightslategray;
+    height: 100%;
+} */
+
+body {
+    background-color: lightslategray;
+}
+
+.divBackgroundColor {
+    background-color: white;
+    
+}
+
+p, li {
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+h1 {
+    font-weight: bold;
+}

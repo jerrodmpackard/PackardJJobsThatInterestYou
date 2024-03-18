@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function NavbarComponent() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar bg='dark' data-bs-theme='dark' expand="lg" className="bg-body-tertiary">
             <Container>
                 <Navbar.Brand as={Link} to='/'>Jerrod's Dream Jobs</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

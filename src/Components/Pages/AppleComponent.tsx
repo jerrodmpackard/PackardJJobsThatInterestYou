@@ -5,7 +5,7 @@ import './Component.css'
 
 const AppleComponent = () => {
     return (
-        <div>
+        <div className='backgroundColor'>
             <header style={{ paddingLeft: 0 }}>
                 <div className='p-5 text-center backgroundImage'
                     style={{ backgroundImage: `url(${require('../../Assets/Apple.jpeg')})`, height: 400 }}
@@ -20,13 +20,13 @@ const AppleComponent = () => {
                 </div>
             </header>
             
-            <div className="container pt-4 pb-5">
+            <div className="container my-4 pb-5 divBackgroundColor rounded">
                 <h3 className='text-center py-4'>Software Engineer (Data Apps & Frontend), Enterprise Systems</h3>
-                <div className="container border">
+                <div className="container border divBackgroundColor rounded">
                     <Tabs
                         defaultActiveKey="why"
                         id="uncontrolled-tab-example"
-                        className="mb-3"
+                        className="mb-3 "
                         fill
                     >
                         <Tab eventKey="why" title="Why I want to work for Apple">

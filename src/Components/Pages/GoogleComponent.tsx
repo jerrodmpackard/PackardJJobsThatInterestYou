@@ -5,7 +5,7 @@ import './Component.css'
 
 const Google = () => {
     return (
-        <div>
+        <div className='backgroundColor'>
             <header style={{ paddingLeft: 0 }}>
                 <div className='p-5 text-center backgroundImage'
                     style={{ backgroundImage: `url(${require('../../Assets/Google.jpg')})`, height: 400 }}
@@ -20,7 +20,7 @@ const Google = () => {
                 </div>
             </header>
             
-            <div className="container pt-4 pb-5">
+            <div className="container my-4 pb-5 divBackgroundColor rounded">
                 <h3 className='text-center py-4'>Software Engineer III, Google Cloud AI</h3>
                 <div className="container border">
                     <Tabs

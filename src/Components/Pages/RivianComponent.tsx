@@ -4,7 +4,7 @@ import './Component.css'
 
 const RivianComponent = () => {
     return (
-        <div>
+        <div className='backgroundColor'>
             <header style={{ paddingLeft: 0 }}>
                 <div className='p-5 text-center backgroundImage'
                     style={{ backgroundImage: `url(${require('../../Assets/Rivian3.webp')})`, height: 400 }}
@@ -19,7 +19,7 @@ const RivianComponent = () => {
                 </div>
             </header>
             
-            <div className="container pt-4 pb-5">
+            <div className="container my-4 pb-5 divBackgroundColor rounded">
                 <h3 className='text-center py-4'>Senior Data Scientist & Front-End Developer</h3>
                 <div className="container border">
                     <Tabs
